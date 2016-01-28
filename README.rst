@@ -38,37 +38,44 @@ is illustrated in the picture below.
 
 The Remote library is one of Robot Framework's standard libraries and thus
 automatically installed with the framework. It does not have any keywords of
-its own, but instead it works as a proxy between Robot Framework and remote
+its own, but instead works as a proxy between Robot Framework and remote
 servers.
 
 Remote servers expose the keywords provided by the actual test libraries
 to the Remote library. The Remote library and remote servers communicate
 using a simple remote protocol on top of an `XML-RPC <http://www.xmlrpc.com>`_
-channel. The remote protocol and the whole remote library interface is
+channel. The remote protocol and the whole remote library interface are
 described in detail in the `Robot Framework User Guide
 <http://robotframework.org/robotframework/#user-guide>`_.
 
 How remote servers interact with the actual test libraries depends on the
-language and the remote server design. For custom usages it is possible to
-create remote servers that contain also all keywords themselves.
+language and the remote server design. See the implementation of the
+`available remote servers`_ below for concrete examples.
+
+It is also possible to create solutions that combine a remote server and
+one or more libraries together into a single distribution. For example,
+`RemoteSwingLibrary <https://github.com/robotframework/remoteswinglibrary>`_
+bundles `SwingLibrary <https://github.com/robotframework/swinglibrary>`_,
+jrobotremoteserver_ and also the Remote library itself, and its users do
+not even need to know that they use the remote interface.
 
 Available remote servers
 ========================
 
-Following remote servers are available as separate projects. See the project
-pages for installation and usage instructions.
+Following generic remote servers are available as separate projects. See
+the project pages for installation and usage instructions.
 
 ===================  =============================
 Language / Platform          Remote Server
 ===================  =============================
-Python               `PythonRemoteServer <https://github.com/robotframework/PythonRemoteServer>`__
-Java                 `jrobotremoteserver <https://github.com/ombre42/jrobotremoteserver>`__
-Ruby                 `robot-remote-server-rb <https://github.com/semperos/robot-remote-server-rb>`__
-.NET                 `nrobotremote <https://github.com/claytonneal/nrobotremote>`__
-Clojure              `robot-remote-server-clj <https://github.com/semperos/robot-remote-server-clj>`__
-Perl                 `plrobotremoteserver <https://github.com/daluu/plrobotremoteserver>`__
-node.js              `node-robotremoteserver <https://github.com/comick/node-robotremoteserver>`__
-PHP                  `phrrs <https://github.com/daluu/phrrs>`__
+Python               `PythonRemoteServer <https://github.com/robotframework/PythonRemoteServer>`_
+Java                 `jrobotremoteserver <https://github.com/ombre42/jrobotremoteserver>`_
+Ruby                 `robot-remote-server-rb <https://github.com/semperos/robot-remote-server-rb>`_
+.NET                 `nrobotremote <https://github.com/claytonneal/nrobotremote>`_
+Clojure              `robot-remote-server-clj <https://github.com/semperos/robot-remote-server-clj>`_
+Perl                 `plrobotremoteserver <https://github.com/daluu/plrobotremoteserver>`_
+node.js              `node-robotremoteserver <https://github.com/comick/node-robotremoteserver>`_
+PHP                  `phrrs <https://github.com/daluu/phrrs>`_
 ===================  =============================
 
 Please submit an issue and/or pull request to this project if you have
