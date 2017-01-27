@@ -47,11 +47,8 @@ using a simple remote protocol on top of an `XML-RPC <http://www.xmlrpc.com>`_
 channel. The remote protocol and the whole remote library interface are
 described in detail in the `Robot Framework User Guide
 <http://robotframework.org/robotframework/#user-guide>`_.
-
-.. note:: The default remote protocol port 8270 has been `registered by
-          ANSI`__ for this purpose.
-
-__ http://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml?search=8270
+The default port used by the remote protocol is 8270 and it has been
+`registered by ANSI`__ for this purpose.
 
 How remote servers interact with the actual test libraries depends on the
 language and the remote server design. See the implementation of the
@@ -63,6 +60,8 @@ one or more libraries together into a single distribution. For example,
 bundles `SwingLibrary <https://github.com/robotframework/swinglibrary>`_,
 jrobotremoteserver_ and also the Remote library itself, and its users do
 not even need to know that they use the remote interface.
+
+__ http://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml?search=8270
 
 Available remote servers
 ========================
