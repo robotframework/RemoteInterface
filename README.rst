@@ -48,7 +48,7 @@ channel. The remote protocol and the whole remote library interface are
 described in detail in the `Robot Framework User Guide
 <http://robotframework.org/robotframework/#user-guide>`_.
 The default port used by the remote protocol is 8270 and it has been
-`registered by ANSI`__ for this purpose.
+`registered by IANA`__ for this purpose.
 
 How remote servers interact with the actual test libraries depends on the
 language and the remote server design. See the implementation of the
