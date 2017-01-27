@@ -48,8 +48,8 @@ channel. The remote protocol and the whole remote library interface are
 described in detail in the `Robot Framework User Guide
 <http://robotframework.org/robotframework/#user-guide>`_.
 
-..note:: The default remote protocol port 8270 has been `registered by
-         ANSI`__ for this purpose.
+.. note:: The default remote protocol port 8270 has been `registered by
+          ANSI`__ for this purpose.
 
 __ http://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml?search=8270
 
