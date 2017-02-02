@@ -77,6 +77,7 @@ Java                 `jrobotremoteserver <https://github.com/ombre42/jrobotremot
 Ruby                 `robot-remote-server-rb <https://github.com/semperos/robot-remote-server-rb>`_
 .NET                 `nrobotremote <https://github.com/claytonneal/nrobotremote>`_
 Clojure              `robot-remote-server-clj <https://github.com/semperos/robot-remote-server-clj>`_
+Clojure              `RoboZ <https://github.com/cneira/RoboZ>`_
 Perl                 `plrobotremoteserver <https://github.com/daluu/plrobotremoteserver>`_
 node.js              `node-robotremoteserver <https://github.com/comick/node-robotremoteserver>`_
 PHP                  `phrrs <https://github.com/daluu/phrrs>`_
