@@ -46,7 +46,9 @@ to the Remote library. The Remote library and remote servers communicate
 using a simple remote protocol on top of an `XML-RPC <http://www.xmlrpc.com>`_
 channel. The remote protocol and the whole remote library interface are
 described in detail in the `Robot Framework User Guide
-<http://robotframework.org/robotframework/#user-guide>`_.
+<http://robotframework.org/robotframework/#user-guide>`_ in section `Remote
+Library Interface
+<http://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#remote-library-interface>`_.
 The default port used by the remote protocol is 8270 and it has been
 `registered by IANA`__ for this purpose.
 
