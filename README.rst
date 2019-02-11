@@ -82,6 +82,7 @@ Clojure              `robot-remote-server-clj <https://github.com/semperos/robot
 Perl                 `plrobotremoteserver <https://github.com/daluu/plrobotremoteserver>`_
 node.js              `node-robotremoteserver <https://github.com/comick/node-robotremoteserver>`_
 PHP                  `phrrs <https://github.com/daluu/phrrs>`_
+Scala                `robotframework-scala-remote-library <https://github.com/jg8481/robotframework-scala-remote-library>`_
 ===================  =============================
 
 Please submit an issue and/or pull request to this project if you have
