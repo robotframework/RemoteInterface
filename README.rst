@@ -77,7 +77,7 @@ Language / Platform          Remote Server
 Python               `PythonRemoteServer <https://github.com/robotframework/PythonRemoteServer>`_
 Java                 `jrobotremoteserver <https://github.com/ombre42/jrobotremoteserver>`_
 Ruby                 `robot-remote-server-rb <https://github.com/semperos/robot-remote-server-rb>`_
-.NET                 `nrobotremote <https://github.com/claytonneal/nrobotremote>`_
+.NET                 `nrobot-server <https://github.com/claytonneal/nrobot-server>`_
 Clojure              `robot-remote-server-clj <https://github.com/semperos/robot-remote-server-clj>`_
 Perl                 `plrobotremoteserver <https://github.com/daluu/plrobotremoteserver>`_
 node.js              `node-robotremoteserver <https://github.com/comick/node-robotremoteserver>`_
