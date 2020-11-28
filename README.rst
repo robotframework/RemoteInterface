@@ -82,6 +82,7 @@ Clojure              `robot-remote-server-clj <https://github.com/semperos/robot
 Perl                 `plrobotremoteserver <https://github.com/daluu/plrobotremoteserver>`_
 node.js              `node-robotremoteserver <https://github.com/comick/node-robotremoteserver>`_
 PHP                  `phrrs <https://github.com/daluu/phrrs>`_
+Go                   `gorrs <https://github.com/daluu/gorrs>`_ (note `replace <https://github.com/Hi-Fi/rf-remote-library-demos/blob/master/basic_data_handling/src/golang/go.mod>`_) 
 ===================  =============================
 
 Please submit an issue and/or pull request to this project if you have
